@@ -40,7 +40,7 @@ spidroin = dnaSequence()
 filename = input("File name is: ")
 fileheader = input("file header is: ")
 
-#try block helps avoid errors
+#try block helps manage errors
 #the with open(filename.fasta, "w") includes title of the file inputted and set it as a handle (spidroinFile_handle)
 #.write(">"+ fileheader + "\n") writes the fileheader and \n helps make the sequence on the next line
 #.write(spidroin) adds the sequence to the file
